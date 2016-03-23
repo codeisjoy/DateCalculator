@@ -1,8 +1,9 @@
-language: swift
+language: objective-c
 branches:
  only:
- - master
+  - master
+osx_image: xcode7.3
 xcode_project: DateCalculator.xcodeproj
-xcode_scheme: DateCalculator
+xcode_scheme: DateCalculatorTests
 script:
-- xcodebuild clean build -project DateCalculator.xcodeproj -scheme DateCalculator
+  - xcodebuild test -project DateCalculator.xcodeproj -scheme DateCalculatorTests

@@ -1,0 +1,8 @@
+language: swift
+branches:
+ only:
+ - master
+xcode_project: DateCalculator.xcodeproj
+xcode_scheme: DateCalculator
+script:
+- xcodebuild clean build -project DateCalculator.xcodeproj -scheme DateCalculator

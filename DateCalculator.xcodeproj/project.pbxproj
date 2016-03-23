@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A8A1A41CA1508C0063ECF3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A1A31CA1508C0063ECF3 /* main.swift */; };
+		04A8A1B11CA1528F0063ECF3 /* DateCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A1B01CA1528F0063ECF3 /* DateCalculatorTests.swift */; };
+		04A8A1B61CA1532F0063ECF3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A8A1A31CA1508C0063ECF3 /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04A8A19E1CA1508C0063ECF3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04A8A1A01CA1508C0063ECF3 /* DateCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DateCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A8A1A31CA1508C0063ECF3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		04A8A1AE1CA1528F0063ECF3 /* DateCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A8A1B01CA1528F0063ECF3 /* DateCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCalculatorTests.swift; sourceTree = "<group>"; };
+		04A8A1B21CA1528F0063ECF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A8A19D1CA1508C0063ECF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A8A1AB1CA1528F0063ECF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A8A1971CA1508C0063ECF3 = {
+			isa = PBXGroup;
+			children = (
+				04A8A1A21CA1508C0063ECF3 /* DateCalculator */,
+				04A8A1AF1CA1528F0063ECF3 /* DateCalculatorTests */,
+				04A8A1A11CA1508C0063ECF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A8A1A11CA1508C0063ECF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A8A1A01CA1508C0063ECF3 /* DateCalculator */,
+				04A8A1AE1CA1528F0063ECF3 /* DateCalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A8A1A21CA1508C0063ECF3 /* DateCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				04A8A1A31CA1508C0063ECF3 /* main.swift */,
+			);
+			path = DateCalculator;
+			sourceTree = "<group>";
+		};
+		04A8A1AF1CA1528F0063ECF3 /* DateCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A8A1B01CA1528F0063ECF3 /* DateCalculatorTests.swift */,
+				04A8A1B21CA1528F0063ECF3 /* Info.plist */,
+			);
+			path = DateCalculatorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A8A19F1CA1508C0063ECF3 /* DateCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A8A1A71CA1508C0063ECF3 /* Build configuration list for PBXNativeTarget "DateCalculator" */;
+			buildPhases = (
+				04A8A19C1CA1508C0063ECF3 /* Sources */,
+				04A8A19D1CA1508C0063ECF3 /* Frameworks */,
+				04A8A19E1CA1508C0063ECF3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateCalculator;
+			productName = DateCalculator;
+			productReference = 04A8A1A01CA1508C0063ECF3 /* DateCalculator */;
+			productType = "com.apple.product-type.tool";
+		};
+		04A8A1AD1CA1528F0063ECF3 /* DateCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A8A1B31CA1528F0063ECF3 /* Build configuration list for PBXNativeTarget "DateCalculatorTests" */;
+			buildPhases = (
+				04A8A1AA1CA1528F0063ECF3 /* Sources */,
+				04A8A1AB1CA1528F0063ECF3 /* Frameworks */,
+				04A8A1AC1CA1528F0063ECF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateCalculatorTests;
+			productName = DateCalculatorTests;
+			productReference = 04A8A1AE1CA1528F0063ECF3 /* DateCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A8A1981CA1508C0063ECF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "BCG Digital Ventures";
+				TargetAttributes = {
+					04A8A19F1CA1508C0063ECF3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					04A8A1AD1CA1528F0063ECF3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 04A8A19B1CA1508C0063ECF3 /* Build configuration list for PBXProject "DateCalculator" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04A8A1971CA1508C0063ECF3;
+			productRefGroup = 04A8A1A11CA1508C0063ECF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A8A19F1CA1508C0063ECF3 /* DateCalculator */,
+				04A8A1AD1CA1528F0063ECF3 /* DateCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A8A1AC1CA1528F0063ECF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A8A19C1CA1508C0063ECF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A8A1A41CA1508C0063ECF3 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A8A1AA1CA1528F0063ECF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A8A1B61CA1532F0063ECF3 /* main.swift in Sources */,
+				04A8A1B11CA1528F0063ECF3 /* DateCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04A8A1A51CA1508C0063ECF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A8A1A61CA1508C0063ECF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		04A8A1A81CA1508C0063ECF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A8A1A91CA1508C0063ECF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04A8A1B41CA1528F0063ECF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DateCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeisjoy.DateCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04A8A1B51CA1528F0063ECF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DateCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeisjoy.DateCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A8A19B1CA1508C0063ECF3 /* Build configuration list for PBXProject "DateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A8A1A51CA1508C0063ECF3 /* Debug */,
+				04A8A1A61CA1508C0063ECF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A8A1A71CA1508C0063ECF3 /* Build configuration list for PBXNativeTarget "DateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A8A1A81CA1508C0063ECF3 /* Debug */,
+				04A8A1A91CA1508C0063ECF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04A8A1B31CA1528F0063ECF3 /* Build configuration list for PBXNativeTarget "DateCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A8A1B41CA1528F0063ECF3 /* Debug */,
+				04A8A1B51CA1528F0063ECF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A8A1981CA1508C0063ECF3 /* Project object */;
+}
